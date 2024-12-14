@@ -11,7 +11,6 @@ from ultralytics import YOLO
 from basicsr.archs.rrdbnet_arch import RRDBNet
 
 
-
 # Initialize Flask
 app = Flask(__name__)
 CORS(app)
