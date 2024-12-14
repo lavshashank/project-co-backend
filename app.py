@@ -9,6 +9,7 @@ from PIL import Image
 from werkzeug.utils import secure_filename
 from ultralytics import YOLO
 from basicsr.archs.rrdbnet_arch import RRDBNet
+import torchvision.transforms as transforms
 
 
 # Initialize Flask
