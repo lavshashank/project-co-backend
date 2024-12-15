@@ -233,4 +233,4 @@ def stream_events(file_path):
     return Response(generate_event_stream(file_path), content_type='text/event-stream')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run()
