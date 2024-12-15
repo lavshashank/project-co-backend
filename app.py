@@ -169,6 +169,9 @@ def generate_frames():
     except Exception as e:
         print(f"Video feed error: {e}")
 
+@app.route('/')
+def homepage():
+    return "Welcome to the homepage!"
 
 # Routes
 @app.route('/upload', methods=['POST'])
