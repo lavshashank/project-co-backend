@@ -1,0 +1,3 @@
+runtime: python310  # Replace with your desired runtime (e.g., python310, nodejs14, etc.)
+entrypoint: gunicorn -b :$PORT app:app  # Adjust based on your application entry point
+instance_class: F2  # Adjust based on your instance type
